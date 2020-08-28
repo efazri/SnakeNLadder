@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <title>Snake and Ladder</title>
+    <style> *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    </style> 
+</head>
+<body>
+    <header id="head-title">
+        <h1 id="head-word">Snake and Ladder</h1>
+    </header>
+    <div class="player">
+        <p id="initValue">1</p>
+    </div>
+    <div class="event">
+        <h3 id="status-event">Press The Button If You are Ready</h3>
+    </div>
+    <img src="/img/ladder.png" alt="ladder" id="ladder">
+    <img src="/img/snake.png" alt="snake" id="snake">
+    <table class="table-board">
+        <tr>
+            <td class="box-num2"> 20 </td>
+            <td class="box-num2"> 19 </td>
+            <td class="box-num2"> 18 </td>
+            <td class="box-num2"> 17 </td>
+            <td class="box-num2"> 16 </td>
+        </tr>
+        <tr>
+            <td class="box-num2"> 11 </td>
+            <td class="box-num2"> 12 </td>
+            <td class="box-num2"> 13 </td>
+            <td class="box-num2"> 14 </td>
+            <td class="box-num2"> 15 </td>
+        </tr>
+        <tr>
+            <td class="box-num2"> 10 </td>
+            <td class="box-num2"> 9 </td>
+            <td class="box-num2"> 8 </td>
+            <td class="box-num2"> 7 </td>
+            <td class="box-num2"> 6 </td>
+        </tr>
+        <tr>
+            <td class="box-num2 pion"> 1 </td>
+            <td class="box-num2"> 2 </td>
+            <td class="box-num2"> 3 </td>
+            <td class="box-num2"> 4 </td>
+            <td class="box-num2"> 5 </td>
+        </tr>
+    </table>
+
+    <input type="submit" id="btn-dice" value="Push me">
+    <h1 id="dice-num">0</h1>
+    <h2 id="dice-stat"> You got </h2>
+
+    <div class="end-game">
+        <h1 id="end">Wanna play again?</h1>
+        <a href="index.html">
+            <h2 id="yes">Yes!</h2>
+        </a>
+        <a href="endGame.html">
+            <h2 id="no"> No </h2>
+        </a>
+    </div>
+
+    <div class="close-bar">
+        <h2 id="closing-word">| Snake and Ladder |</h2>
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>
+
